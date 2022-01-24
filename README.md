@@ -32,7 +32,7 @@ This is my starting point to make a project with the BluePill in Rust. It was ma
 * Dimensions: 53.0mm x 22.5mm
 
 
-## IMPORTANTE note
+## IMPORTANT note
 
 ```
   MAX Absolute 150 mA total source/sink for entire CPU.
