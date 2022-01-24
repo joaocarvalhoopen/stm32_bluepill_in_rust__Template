@@ -35,16 +35,19 @@ This is my starting point to make a project with the BluePill in Rust. It was ma
 ## IMPORTANT note
 
 ```
-  MAX Absolute 150 mA total source/sink for entire CPU.
+  While programming with the ST-Link_V2 dongle, don't have another USB cable
+  connected to the Micro USB plug.
+
+   MAX Absolute 150 mA total source/sink for entire Micro-controller.
   
-  MAX 20 mA per pin, 8mA recomended.
+  MAX 20 mA per pin, 8 mA recommended.
   
   There are pins that are 5 V tolerant but there are many that are not,
   see the diagrams of the chip and the specifications on the data chip.
 
-  The max current at 3.3V is not equal in all the pins, 
-     PC13, PC14 e PC15 are weaker pins Source 0 mA e sink 3 mA max 2 MHz e max 30pF.
-```   
+  The max current at 3.3 V is not equal in all the pins, 
+     PC13, PC14 e PC15 are weaker pins Source 0 mA e sink 3 mA max 2 MHz e max 30 pF.
+```
 
 
 ## Connecting the STM32 Blue Pill to ST-Link V2 USB Debugger
@@ -117,8 +120,6 @@ GND     [Black]       GND      (Pin 6)
    [https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf](https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf)
 
 
-
-
 ## After installation in process to compile, flash and debug you only need to do
 
 ```
@@ -164,6 +165,7 @@ Just put one breakpoint and start running the Debug play icon.
 (VSCode) Set Breakpoint in line 10.
 (VSCode) icon play debug.
 ```
+
 
 ## Installation of embedded Rust for STM32
 
