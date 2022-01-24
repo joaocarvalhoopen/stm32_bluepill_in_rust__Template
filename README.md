@@ -188,8 +188,8 @@ If not you have a problem in the path: <br>
 
 ```
 1. Download the repository or clone it to a directory.
-2. **Change the directory name** from "**stm32_bluepill_in_rust__Template**"
-   to "**stm32_bluepill_in_rust**".
+2. Change the directory name from "stm32_bluepill_in_rust__Template"
+   to "stm32_bluepill_in_rust".
 3. Connect the BluePill ST-Link_V2 programmer to the Blupill and to
    the computer, only the programmer can be connected while programming.
 3. Then do:
