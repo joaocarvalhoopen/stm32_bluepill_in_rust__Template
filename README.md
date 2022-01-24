@@ -1,5 +1,5 @@
 # STM32 BluePill in Rust - Project template
-The updated project template that I use for BluePill micro-controller in Rust.
+The updated project template that I use for STM32 BluePill micro-controller in Rust for Linux Ubuntu 20.04 .
 
 ## BluePill STM32F103 - Development board
 
@@ -89,12 +89,35 @@ GND     [Black]       GND      (Pin 6)
 9. **229 drivers para Embedded-HAL** <br>
    [https://crates.io/keywords/embedded-hal-driver](https://crates.io/keywords/embedded-hal-driver)
 
-10. **Awesome Embedded Rust** <br>
+10. **More gdb commands cheat-sheet** <br> 
+    [https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
+
+11. **Awesome Embedded Rust** <br>
     [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-11. **How to learn modern Rust** <br>
+12. **How to learn modern Rust** <br>
     [https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
     
+
+## Datasheets
+
+1. **STM32F103C8 Website** <br> 
+   [https://www.st.com/en/microcontrollers/stm32f103c8.html](https://www.st.com/en/microcontrollers/stm32f103c8.html)
+
+2. **STM32F103C8 Datasheet** <br> 
+   [https://www.st.com/resource/en/datasheet/stm32f103c8.pdf](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf)
+
+3. **STM32F103C8 Reference Manual** <br> 
+   [https://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf](https://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf)
+
+4. **STM32F103C8 Flash Programming** <br>
+   [https://www.st.com/content/ccc/resource/technical/document/programming_manual/10/98/e8/d4/2b/51/4b/f5/CD00283419.pdf/files/CD00283419.pdf/jcr:content/translations/en.CD00283419.pdf](https://www.st.com/content/ccc/resource/technical/document/programming_manual/10/98/e8/d4/2b/51/4b/f5/CD00283419.pdf/files/CD00283419.pdf/jcr:content/translations/en.CD00283419.pdf)
+
+5. **STM32F103C8 ARM Cortex M3 Programming** <br> 
+   [https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf](https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf)
+
+
+
 
 ## After installation in process to compile, flash and debug you only need to do
 
