@@ -206,6 +206,13 @@ If not you have a problem in the path: <br>
 
 2. If you see an error, update your PATH environment variable so that it includes the folder for the ARM ".exe" files.
 
+To have a graphical debugger front-end, inside VSCode, install the following plugin: <br>
+
+* **Plugin Native Debug (WebFreak)** <br>
+  [https://marketplace.visualstudio.com/items?itemName=webfreak.debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug)
+
+To use the debugger inside VSCode the last command in the script for the debugger gdb "openocd.gdb" has to terminate in step, and has to be waiting at the beginning of the program. And you must have the openocd running on a independent shell window. 
+
 
 ## How to use this repository
 
