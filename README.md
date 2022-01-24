@@ -38,7 +38,7 @@ This is my starting point to make a project with the BluePill in Rust. It was ma
   While programming with the ST-Link_V2 dongle, don't have another USB cable
   connected to the Micro USB plug.
 
-   MAX Absolute 150 mA total source/sink for entire Micro-controller.
+  MAX Absolute 150 mA total source/sink for entire Micro-controller.
   
   MAX 20 mA per pin, 8 mA recommended.
   
