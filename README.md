@@ -39,14 +39,15 @@ This is my starting point to make a project with the BluePill in Rust. It was ma
   
   MAX 20 mA per pin, 8mA recomended.
   
-  There are pins that are 5 V tolerant but there are many that are not, see the diagrams of the chip and the specifications on the data chip.
+  There are pins that are 5 V tolerant but there are many that are not,
+  see the diagrams of the chip and the specifications on the data chip.
 
   The max current at 3.3V is not equal in all the pins, 
      PC13, PC14 e PC15 are weaker pins Source 0 mA e sink 3 mA max 2 MHz e max 30pF.
 ```   
 
 
-# Connecting the STM32 Blue Pill to ST-Link V2 USB Debugger
+## Connecting the STM32 Blue Pill to ST-Link V2 USB Debugger
 
 ```
 STM32 Blue Pill        ST-Link V2 USB Debugger
@@ -190,8 +191,10 @@ If not you have a problem in the path: <br>
 
 ```
 1. Download the repository or clone it to a directory.
-2. Change the directory name from "stm32_bluepill_in_rust__Template" to "stm32_bluepill_in_rust".
-3. Connect the BluePill ST-Link_V2 programmer to the Blupill and to the computer, only the programmer can be connected while programming.
+2. Change the directory name from "stm32_bluepill_in_rust__Template"
+   to "stm32_bluepill_in_rust".
+3. Connect the BluePill ST-Link_V2 programmer to the Blupill and to
+   the computer, only the programmer can be connected while programming.
 3. Then do:
 
 Window CMD 1
