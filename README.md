@@ -145,7 +145,6 @@ Just put one breakpoint and start running the Debug play icon.
 ## Installation of embedded Rust for STM32
 
 **After installing Rust on you PC do:** <br>
-<br>
 
 ```
 $ rustup update
@@ -155,7 +154,6 @@ $ rustup target add thumbv7m-none-eabi
 ```
 
 Installation of the debugger (**gdb-multiarch**) and the tool to flash do chip, the onm circuit debugger SWD (**openocd**): <br>
-<br>
 
 ```
 (arm-none-eabi-gdb is obsolete, we will use gdb-multiarch)
@@ -165,8 +163,7 @@ $ sudo apt-get install  gdb-multiarch openocd
 $ sudo ln -s /usr/bin/gdb-multiarch /usr/bin/arm-none-eabi-gdb
 ```
 
-Install ARM Cross-Compiler and Linker <br>
-<br>
+Install **ARM Cross-Compiler** and **Linker** <br>
 
 ```
 $ sudo apt install binutils-arm-none-eabi gcc-arm-none-eabi
@@ -191,8 +188,8 @@ If not you have a problem in the path: <br>
 
 ```
 1. Download the repository or clone it to a directory.
-2. Change the directory name from "stm32_bluepill_in_rust__Template"
-   to "stm32_bluepill_in_rust".
+2. **Change the directory name** from "**stm32_bluepill_in_rust__Template**"
+   to "**stm32_bluepill_in_rust**".
 3. Connect the BluePill ST-Link_V2 programmer to the Blupill and to
    the computer, only the programmer can be connected while programming.
 3. Then do:
@@ -208,7 +205,7 @@ $ cargo build
 $ cargo run
 ```
 
-Then to do your own project you will have to create a project directory with the name of the project (lowercase and "_"), then copy the all the files there, then change the files where is "stm32_bluepill_in_rust" to your project name. <br>
+Then **to do your own project** you will have to create a project directory with the name of the project (lowercase and "_"), then copy the all the files there, then change the files where is "**stm32_bluepill_in_rust**" to your project name. <br>
 **The files to change are:** <br>
 * openocd.gdb
 * launch.json
