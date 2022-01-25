@@ -232,7 +232,7 @@ To have a graphical debugger front-end, inside VSCode, install the following plu
 * **Plugin Native Debug (WebFreak)** <br>
   [https://marketplace.visualstudio.com/items?itemName=webfreak.debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug)
 
-To use the debugger inside VSCode the last command in the script for the debugger gdb "openocd.gdb" has to terminate in step, and has to be waiting at the beginning of the program. And you must have the openocd running on a independent shell window. 
+To use the debugger inside VSCode the last command in the script for the debugger gdb "openocd.gdb" has to terminate in step, and has to be waiting at the beginning of the program. And you must have the openocd running on a independent shell window. <br>
 
 
 ## How to use this repository
@@ -265,6 +265,12 @@ Then **to do your own project** you will have to create a project directory with
 ## How to start learning about the stm32f1xx-hal API and the low level details of the micro-controller.
  
 My process of studying will be to start from the beginning of this list of program examples and analyse each program one at a time, see / find in the comments and in the HAL documentation in detail what each function of method does. It's a simple process but laborious that will rapidly fill you in into the API. For more detail a second pass will be in the Datasheet and Reference manual for this micro-controller. The **examples** that have in there name **rtic** are the ones that use the **rtic - real time operating system**.   
+
+* **stm32-rs - stm32f1xx-hal - Examples** <br>
+  [https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples](https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples)
+
+* **stm32f1xx_hal documentation version 0.8** <br>
+   [https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/](https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/)
 
 ## Order in witch one should study the examples to learn how to use the stm32f1xx-hal crate:
 
