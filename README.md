@@ -69,36 +69,55 @@ GND     [Black]       GND      (Pin 6)
 2. **stm32-rs - stm32f1xx-hal - Examples** <br>
    [https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples](https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples)
 
-3. **Video Play List - Embedded Rust BluePill** <br>
+3. **stm32f1xx_hal documentation version 0.8** <br>
+   [https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/](https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/)
+
+4. **Video Play List - Embedded Rust BluePill** <br>
    [https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU)
 
-4. **TeXitoi - blue-pill-quickstart** <br>
+5. **TeXitoi - blue-pill-quickstart** <br>
    The Example source code is modified from here. <br>
    [https://github.com/TeXitoi/blue-pill-quickstart](https://github.com/TeXitoi/blue-pill-quickstart)
 
-5. **lupyuen - stm32-blue-pill-rust** <br>
+6. **lupyuen - stm32-blue-pill-rust** <br>
    This uses debugger multi architecture and VSCode. <br>
    [https://github.com/lupyuen/stm32-blue-pill-rust](https://github.com/lupyuen/stm32-blue-pill-rust)
 
-6. **rust-embedded - cortex-m-quickstart** <br>
+7. **rust-embedded - cortex-m-quickstart** <br>
    [https://github.com/rust-embedded/cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
 
-7. **STM32 - Discovery - Book** <br>
+8. **STM32 - Discovery - Book** <br>
    [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
 
-8. **The Embedded Rust Book** <br>
+9. **The Embedded Rust Book** <br>
    [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-9. **229 drivers para Embedded-HAL** <br>
-   [https://crates.io/keywords/embedded-hal-driver](https://crates.io/keywords/embedded-hal-driver)
+10. **229 drivers para Embedded-HAL** <br>
+    [https://crates.io/keywords/embedded-hal-driver](https://crates.io/keywords/embedded-hal-driver)
 
-10. **More gdb commands cheat-sheet** <br> 
+11. **More gdb commands cheat-sheet** <br> 
     [https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
-11. **Awesome Embedded Rust** <br>
+
+12. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
+    RTIC is a RTOS - Real Time Operating System. <br>
+    [https://www.youtube.com/watch?v=saNdh0m_qHc](https://www.youtube.com/watch?v=saNdh0m_qHc)
+
+13. **RTIC Book** <br>
+    Real-Time Interrupt-driven Concurrency. <br>
+    A very efficient preemptive multitasking framework that supports task prioritization and dead lock free execution. <br>
+    [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
+
+14. **Github - rtic-rs - cortex-m-rtic** <br>
+    [https://github.com/rtic-rs/cortex-m-rtic](https://github.com/rtic-rs/cortex-m-rtic)
+
+15. **Video - Grepit about the Rust RTIC framework** <br>
+    [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
+
+16. **Awesome Embedded Rust** <br>
     [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-12. **How to learn modern Rust** <br>
+17. **How to learn modern Rust** <br>
     [https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
     
 
@@ -241,6 +260,92 @@ Then **to do your own project** you will have to create a project directory with
 **The files to change are:** <br>
 * openocd.gdb
 * launch.json
+
+
+## How to start learning about the stm32f1xx-hal API and the low level details of the micro-controller.
+ 
+My process of studying will be to start from the beginning of this list of program examples and analyse each program one at a time, see / find in the comments and in the HAL documentation in detail what each function of method does. It's a simple process but laborious that will rapidly fill you in into the API. For more detail a second pass will be in the Datasheet and Reference manual for this micro-controller. The **examples** that have in there name **rtic** are the ones that use the **rtic - real time operating system**.   
+
+## Order in witch one should study the examples to learn how to use the stm32f1xx-hal crate:
+
+```
+01. V - blinky.rs
+02. V - blinky_generic.rs
+03. - blinky_rtc.rs
+04. - blinky_rtcalarm_irq.rs
+05. - blinky_timer_irq.rs
+
+06. - delay.rs
+
+07. - hello.rs
+
+08. - led.rs
+
+09. - gpio_input.rs
+10. - dynamic_gpio.rs
+11. - multi_mode_gpio.rs
+
+12. - panics.rs
+
+13. - pwm.rs
+14. - pwm_custom.rs
+15. - pwm_input.rs
+
+16. - motor.rs.disabled
+17. - mpu9250.rs.disabled
+
+18. - exti.rs
+19. - exti_rtic.rs
+
+20. - adc.rs
+21. - adc_temperature.rs
+22. - adc-dma-circ.rs
+23. - adc-dma-rx.rs
+
+24. - rtc.rs
+
+25. - serial.rs
+26. - serial_config.rs
+27. - serial_reconfigure.rs
+28. - serial-fmt.rs
+29. - serial-interrupt-idle.rs
+30. - serial-dma-circ.rs
+31. - serial-dma-peek.rs
+32. - serial-dma-rx.rs
+33. - serial-dma-tx.rs
+
+34. - i2c-bme280 - Example of using i2c with the bme280 air sensor
+
+35. - spi.rs
+36. - spi-dma.rs
+
+37. - can-echo.rs
+38. - can-loopback.rs
+39. - can-rtic.rs
+
+40. - crc.rs
+41. - qei.rs
+42. - nojtag.rs
+
+43. - itm.rs
+
+44. - usb_serial.rs
+45. - usb_serial_interrupt.rs
+46. - usb_serial_rtic.rs
+
+47. - timer-interrupt-rtic.rs
+
+48. - mfrc522.rs
+
+49. - enc28j60-coap.rs.disabled
+50. - enc28j60.rs.disabled
+```
+
+
+## Notes
+
+* **block!** - Turns the non-blocking expression $e into a blocking operation. <br>
+  From the crate nb.
 
 
 ## License

@@ -4,6 +4,7 @@
 // Set the panic handler
 extern crate panic_semihosting;
 
+// use nb::block;
 use core::sync::atomic::{AtomicBool, Ordering};
 use cortex_m::peripheral::syst::SystClkSource;
 use cortex_m_rt::{entry, exception};
