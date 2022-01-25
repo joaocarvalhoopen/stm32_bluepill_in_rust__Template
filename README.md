@@ -3,7 +3,7 @@ The updated project template that I use for STM32 BluePill micro-controller in R
 
 ## BluePill STM32F103 - Development board
 
-This is my starting point to make a project with the BluePill in Rust. It was made by following the following 3 github repository notes and files and modifying them to update them, following video playlist and the 2 books of embedded Rust. Those modifications take care of my present needs in term of STM32 BluePill development in Rust<br>
+This is my starting point to make a project with the BluePill in Rust. It was made by following the following 3 github repository notes and files and modifying them to update them, following video playlist and the 2 free books of embedded Rust. Those modifications take care of my present needs in term of STM32 BluePill development in Rust<br>
 <br>
 
 ![The STM32 BluePill diagram](./BluePillPinout.jpg)
@@ -63,61 +63,69 @@ GND     [Black]       GND      (Pin 6)
 
 ## Good references
 
-1. **stm32f1xx-hal in Rust** <br>
+1. **Crate stm32f1xx-hal in Rust** <br>
    [https://github.com/stm32-rs/stm32f1xx-hal](https://github.com/stm32-rs/stm32f1xx-hal)
 
 2. **stm32-rs - stm32f1xx-hal - Examples** <br>
    [https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples](https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples)
 
-3. **stm32f1xx_hal documentation version 0.8** <br>
+3. **stm32f1xx_hal Documentation version 0.8** <br>
    [https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/](https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/)
 
-4. **Video Play List - Embedded Rust BluePill** <br>
+4. **Crate cortex_m Documentation** <br>
+   Cortex core support and assembly instructions. <br>
+   [https://docs.rs/cortex-m/latest/cortex_m/](https://docs.rs/cortex-m/latest/cortex_m/)
+
+5. **Crate cortex_m_rt Documentation** <br>
+   Startup code and minimal runtime for Cortex-M micro-controllers <br>
+   [https://docs.rs/cortex-m-rt/latest/cortex_m_rt/](https://docs.rs/cortex-m-rt/latest/cortex_m_rt/)
+
+6. **Video Play List - Embedded Rust BluePill** <br>
    [https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU)
 
-5. **TeXitoi - blue-pill-quickstart** <br>
+7. **TeXitoi - blue-pill-quickstart** <br>
    The Example source code is modified from here. <br>
    [https://github.com/TeXitoi/blue-pill-quickstart](https://github.com/TeXitoi/blue-pill-quickstart)
 
-6. **lupyuen - stm32-blue-pill-rust** <br>
+8. **lupyuen - stm32-blue-pill-rust** <br>
    This uses debugger multi architecture and VSCode. <br>
    [https://github.com/lupyuen/stm32-blue-pill-rust](https://github.com/lupyuen/stm32-blue-pill-rust)
 
-7. **rust-embedded - cortex-m-quickstart** <br>
+9. **rust-embedded - cortex-m-quickstart** <br>
    [https://github.com/rust-embedded/cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
 
-8. **STM32 - Discovery - Book** <br>
-   [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
+10. **STM32 - Discovery - Book** <br>
+    [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
 
-9. **The Embedded Rust Book** <br>
-   [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
+11. **The Embedded Rust Book** <br>
+    [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-10. **229 drivers para Embedded-HAL** <br>
+12. **229 drivers para Embedded-HAL** <br>
     [https://crates.io/keywords/embedded-hal-driver](https://crates.io/keywords/embedded-hal-driver)
 
-11. **More gdb commands cheat-sheet** <br> 
+13. **More gdb commands cheat-sheet** <br> 
     [https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
 
-12. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
+14. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
     RTIC is a RTOS - Real Time Operating System. <br>
     [https://www.youtube.com/watch?v=saNdh0m_qHc](https://www.youtube.com/watch?v=saNdh0m_qHc)
 
-13. **RTIC Book** <br>
+15. **RTIC Book** <br>
     Real-Time Interrupt-driven Concurrency. <br>
     A very efficient preemptive multitasking framework that supports task prioritization and dead lock free execution. <br>
     [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
 
-14. **Github - rtic-rs - cortex-m-rtic** <br>
+16. **Github - rtic-rs - cortex-m-rtic** <br>
     [https://github.com/rtic-rs/cortex-m-rtic](https://github.com/rtic-rs/cortex-m-rtic)
 
-15. **Video - Grepit about the Rust RTIC framework** <br>
+17. **Video - Grepit about the Rust RTIC framework** <br>
     [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
 
-16. **Awesome Embedded Rust** <br>
+18. **Awesome Embedded Rust** <br>
     [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-17. **How to learn modern Rust** <br>
+19. **How to learn modern Rust** <br>
     [https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
     
 
@@ -264,21 +272,32 @@ Then **to do your own project** you will have to create a project directory with
 
 ## How to start learning about the stm32f1xx-hal API and the low level details of the micro-controller.
  
-My process of studying will be to start from the beginning of this list of program examples and analyse each program one at a time, see / find in the comments and in the HAL documentation in detail what each function of method does. It's a simple process but laborious that will rapidly fill you in into the API. For more detail a second pass will be in the Datasheet and Reference manual for this micro-controller. The **examples** that have in there name **rtic** are the ones that use the **rtic - real time operating system**.   
+My process of studying will be to start from the beginning of this list of program examples and analyse each program one at a time, see / find in the comments and in the HAL documentation in detail what each function of method does. It's a simple process but laborious that will rapidly fill you in into the API. For more detail a second pass will be in the Datasheet and Reference manual for this micro-controller. The **examples** that have in there name **rtic** are the ones that use the **rtic - real time operating system**. The following links are the documentation you will need to understand the examples. <br>
 
-* **stm32-rs - stm32f1xx-hal - Examples** <br>
-  [https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples](https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples)
+1. **stm32-rs - stm32f1xx-hal - Examples** <br>
+   [https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples](https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples)
 
-* **stm32f1xx_hal documentation version 0.8** <br>
+2. **stm32f1xx_hal Documentation version 0.8** <br>
    [https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/](https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/)
 
-## Order in witch one should study the examples to learn how to use the stm32f1xx-hal crate:
+3. **Crate cortex_m Documentation** <br>
+   Core support and assembly instructions. <br>
+   [https://docs.rs/cortex-m/latest/cortex_m/](https://docs.rs/cortex-m/latest/cortex_m/)
+
+4. **Crate cortex_m_rt Documentation** <br>
+   Startup code and minimal runtime for Cortex-M micro-controllers <br>
+   [https://docs.rs/cortex-m-rt/latest/cortex_m_rt/](https://docs.rs/cortex-m-rt/latest/cortex_m_rt/)
+
+5. **STM32F103C8 Reference Manual** <br>
+   [https://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf](https://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf)
+
+## Order in which one should study the examples to learn how to use the stm32f1xx-hal crate:
 
 ```
 01. V - blinky.rs
 02. V - blinky_generic.rs
-03. - blinky_rtc.rs
-04. - blinky_rtcalarm_irq.rs
+03. V - blinky_rtc.rs
+04. V - blinky_rtcalarm_irq.rs
 05. - blinky_timer_irq.rs
 
 06. - delay.rs
