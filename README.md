@@ -80,52 +80,54 @@ GND     [Black]       GND      (Pin 6)
    Startup code and minimal runtime for Cortex-M micro-controllers <br>
    [https://docs.rs/cortex-m-rt/latest/cortex_m_rt/](https://docs.rs/cortex-m-rt/latest/cortex_m_rt/)
 
-6. **Video Play List - Embedded Rust BluePill** <br>
+6. **Play List - Embedded Rust BluePill** - Vers Binarii <br>
    [https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU)
 
-7. **TeXitoi - blue-pill-quickstart** <br>
+7. **Play List - Embedded Rust course** - JaJakub - 2022 <br>
+   [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI)
+
+8. **TeXitoi - blue-pill-quickstart** <br>
    The Example source code is modified from here. <br>
    [https://github.com/TeXitoi/blue-pill-quickstart](https://github.com/TeXitoi/blue-pill-quickstart)
 
-8. **lupyuen - stm32-blue-pill-rust** <br>
+9. **lupyuen - stm32-blue-pill-rust** <br>
    This uses debugger multi architecture and VSCode. <br>
    [https://github.com/lupyuen/stm32-blue-pill-rust](https://github.com/lupyuen/stm32-blue-pill-rust)
 
-9. **rust-embedded - cortex-m-quickstart** <br>
-   [https://github.com/rust-embedded/cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
+10. **rust-embedded - cortex-m-quickstart** <br>
+    [https://github.com/rust-embedded/cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
 
-10. **STM32 - Discovery - Book** <br>
+11. **STM32 - Discovery - Book** <br>
     [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
 
-11. **The Embedded Rust Book** <br>
+12. **The Embedded Rust Book** <br>
     [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-12. **229 drivers para Embedded-HAL** <br>
+13. **229 drivers para Embedded-HAL** <br>
     [https://crates.io/keywords/embedded-hal-driver](https://crates.io/keywords/embedded-hal-driver)
 
-13. **More gdb commands cheat-sheet** <br> 
+14. **More gdb commands cheat-sheet** <br> 
     [https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
-
-14. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
+15. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
     RTIC is a RTOS - Real Time Operating System. <br>
     [https://www.youtube.com/watch?v=saNdh0m_qHc](https://www.youtube.com/watch?v=saNdh0m_qHc)
 
-15. **RTIC Book** <br>
+16. **RTIC Book** <br>
     Real-Time Interrupt-driven Concurrency. <br>
     A very efficient preemptive multitasking framework that supports task prioritization and dead lock free execution. <br>
     [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
 
-16. **Github - rtic-rs - cortex-m-rtic** <br>
+17. **Github - rtic-rs - cortex-m-rtic** <br>
     [https://github.com/rtic-rs/cortex-m-rtic](https://github.com/rtic-rs/cortex-m-rtic)
 
-17. **Video - Grepit about the Rust RTIC framework** <br>
+18. **Video - Grepit about the Rust RTIC framework** <br>
     [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
 
-18. **Awesome Embedded Rust** <br>
+19. **Awesome Embedded Rust** <br>
     [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-19. **How to learn modern Rust** <br>
+20. **How to learn modern Rust** <br>
     [https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
     
 
