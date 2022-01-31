@@ -149,7 +149,7 @@ GND     [Black]       GND      (Pin 6)
    [https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf](https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf)
 
 
-## Crates and size optimization
+## Crates and code size optimization
 
 1. **Crate heapless** <br>
    [https://github.com/japaric/heapless](https://github.com/japaric/heapless)
@@ -167,11 +167,11 @@ GND     [Black]       GND      (Pin 6)
    spsc::Queue - Single producer single consumer lock-free queue
 ```
 
-2. **ufmt** <br>
+2. **Crate ufmt** <br>
    A (6-40x) smaller, (2-9x) faster and panic-free alternative to core::fmt <br>
    [https://github.com/japaric/ufmt](https://github.com/japaric/ufmt)
 
-3. **TOML compilation options for small size code**
+3. **TOML compilation flag options to generate smaller code size**
 
 ```
 ....
