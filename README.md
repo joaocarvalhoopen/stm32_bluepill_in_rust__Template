@@ -149,6 +149,42 @@ GND     [Black]       GND      (Pin 6)
    [https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf](https://www.st.com/content/ccc/resource/technical/document/programming_manual/5b/ca/8d/83/56/7f/40/08/CD00228163.pdf/files/CD00228163.pdf/jcr:content/translations/en.CD00228163.pdf)
 
 
+## Crates and size optimization
+
+1. **Crate heapless** <br>
+   [https://github.com/japaric/heapless](https://github.com/japaric/heapless)
+
+```
+   Arc         - Thread-safe reference-counting pointer backed by a memory pool
+   BinaryHeap  - Priority queue
+   IndexMap    - Hash table
+   IndexSet    - Hash set
+   LinearMap
+   Pool        - Lock-free memory pool
+   String
+   Vec
+   mpmc::Q*    - Multiple producer multiple consumer lock-free queue
+   spsc::Queue - Single producer single consumer lock-free queue
+```
+
+2. **ufmt** <br>
+   A (6-40x) smaller, (2-9x) faster and panic-free alternative to core::fmt <br>
+   [https://github.com/japaric/ufmt](https://github.com/japaric/ufmt)
+
+3. **TOML compilation options for small size code**
+
+```
+....
+
+[profile.release.package."*"]
+opt-level = "z"
+
+[profile.release]
+codegen-units = 1
+debug = true
+opt-level = "z"
+```
+
 ## After installation in process to compile, flash and debug you only need to do
 
 ```
@@ -296,73 +332,73 @@ My process of studying will be to start from the beginning of this list of progr
 ## Order in which one should study the examples to learn how to use the stm32f1xx-hal crate:
 
 ```
-01. V - blinky.rs
-02. V - blinky_generic.rs
-03. V - blinky_rtc.rs
-04. V - blinky_rtcalarm_irq.rs
+01. - blinky.rs
+02. - blinky_generic.rs
+03. - blinky_rtc.rs
+04. - blinky_rtcalarm_irq.rs
 05. - blinky_timer_irq.rs
 
-06. - delay.rs
+06. - timer-interrupt-rtic.rs
 
-07. - hello.rs
+07. - delay.rs
 
-08. - led.rs
+08. - hello.rs
 
-09. - gpio_input.rs
-10. - dynamic_gpio.rs
-11. - multi_mode_gpio.rs
+09. - led.rs
 
-12. - panics.rs
+10. - gpio_input.rs
+11. - dynamic_gpio.rs
+12. - multi_mode_gpio.rs
 
-13. - pwm.rs
-14. - pwm_custom.rs
-15. - pwm_input.rs
+13. - panics.rs
 
-16. - motor.rs.disabled
-17. - mpu9250.rs.disabled
+14. - pwm.rs
+15. - pwm_custom.rs
+16. - pwm_input.rs
 
-18. - exti.rs
-19. - exti_rtic.rs
+17. - exti.rs
+18. - exti_rtic.rs
 
-20. - adc.rs
-21. - adc_temperature.rs
-22. - adc-dma-circ.rs
-23. - adc-dma-rx.rs
+19. - adc.rs
+20. - adc_temperature.rs
+21. - adc-dma-circ.rs
+22. - adc-dma-rx.rs
 
-24. - rtc.rs
+23. - rtc.rs
 
-25. - serial.rs
-26. - serial_config.rs
-27. - serial_reconfigure.rs
-28. - serial-fmt.rs
-29. - serial-interrupt-idle.rs
-30. - serial-dma-circ.rs
-31. - serial-dma-peek.rs
-32. - serial-dma-rx.rs
-33. - serial-dma-tx.rs
+24. - serial.rs
+25. - serial_config.rs
+26. - serial_reconfigure.rs
+27. - serial-fmt.rs
+28. - serial-interrupt-idle.rs
+29. - serial-dma-circ.rs
+30. - serial-dma-peek.rs
+31. - serial-dma-rx.rs
+32. - serial-dma-tx.rs
 
-34. - i2c-bme280 - Example of using i2c with the bme280 air sensor
+33. - i2c-bme280 - Example of using i2c with the bme280 air sensor
 
-35. - spi.rs
-36. - spi-dma.rs
+34. - spi.rs
+35. - spi-dma.rs
 
-37. - can-echo.rs
-38. - can-loopback.rs
-39. - can-rtic.rs
+36. - mfrc522.rs
 
-40. - crc.rs
-41. - qei.rs
-42. - nojtag.rs
+37. - usb_serial.rs
+38. - usb_serial_interrupt.rs
+39. - usb_serial_rtic.rs
+
+40. - nojtag.rs
+41. - crc.rs
+42. - qei.rs
 
 43. - itm.rs
 
-44. - usb_serial.rs
-45. - usb_serial_interrupt.rs
-46. - usb_serial_rtic.rs
+44. - can-echo.rs
+45. - can-loopback.rs
+46. - can-rtic.rs
 
-47. - timer-interrupt-rtic.rs
-
-48. - mfrc522.rs
+47. - motor.rs.disabled
+48. - mpu9250.rs.disabled
 
 49. - enc28j60-coap.rs.disabled
 50. - enc28j60.rs.disabled
