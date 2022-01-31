@@ -171,7 +171,15 @@ GND     [Black]       GND      (Pin 6)
    A (6-40x) smaller, (2-9x) faster and panic-free alternative to core::fmt <br>
    [https://github.com/japaric/ufmt](https://github.com/japaric/ufmt)
 
-3. **TOML compilation flag options to generate smaller code size**
+3. **LCD 16x2 - Crate hd44780-driver** <br>
+   Implementation of the **embedded-hal traits for the HD44780**, 16x1, **16x2** and 16x4. <br>
+   [https://github.com/JohnDoneth/hd44780-driver](https://github.com/JohnDoneth/hd44780-driver)
+
+4. **Crate Embedded graphics** <br>
+   It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
+   [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
+
+5. **TOML compilation flag options to generate smaller code size**
 
 ```
 ....
@@ -184,6 +192,7 @@ codegen-units = 1
 debug = true
 opt-level = "z"
 ```
+
 
 ## After installation in process to compile, flash and debug you only need to do
 
