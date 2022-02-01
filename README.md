@@ -124,10 +124,14 @@ GND     [Black]       GND      (Pin 6)
 18. **Video - Grepit about the Rust RTIC framework** <br>
     [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
 
-19. **Awesome Embedded Rust** <br>
+19. **The Embedonomicon Book** <br>
+    Deep dive into the inner workings. <br>
+    [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
+
+20. **Awesome Embedded Rust** <br>
     [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-20. **How to learn modern Rust** <br>
+21. **How to learn modern Rust** <br>
     [https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
     
 
@@ -179,7 +183,15 @@ GND     [Black]       GND      (Pin 6)
    It's a 2D graphics library that is focused on memory constrained embedded devices. <br>
    [https://github.com/embedded-graphics/embedded-graphics](https://github.com/embedded-graphics/embedded-graphics)
 
-5. **TOML compilation flag options to generate smaller code size**
+5. **Crate flip-link** <br>
+   Adds zero-cost stack overflow protection to your embedded programs. <br>
+   [https://github.com/knurling-rs/flip-link/](https://github.com/knurling-rs/flip-link/)
+
+6. **Crate defmt** <br>
+   defmt ("de format", short for "deferred formatting") is a highly efficient logging framework that targets resource-constrained devices, like micro-controllers. <br>
+   [https://github.com/knurling-rs/defmt/](https://github.com/knurling-rs/defmt/)
+
+7. **TOML compilation flag options to generate smaller code size**
 
 ```
 ....
