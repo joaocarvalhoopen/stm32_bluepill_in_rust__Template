@@ -63,77 +63,107 @@ GND     [Black]       GND      (Pin 6)
 
 ## Good references
 
-1. **Crate stm32f1xx-hal in Rust** <br>
+1. **Video - An Overview of the Embedded Rust Ecosystem** <br>
+   [https://www.youtube.com/watch?v=vLYit_HHPaY](https://www.youtube.com/watch?v=vLYit_HHPaY)
+
+2. **Crate stm32f1xx-hal in Rust** <br>
    [https://github.com/stm32-rs/stm32f1xx-hal](https://github.com/stm32-rs/stm32f1xx-hal)
 
-2. **stm32-rs - stm32f1xx-hal - Examples** <br>
+3. **stm32-rs - stm32f1xx-hal - Examples** <br>
    [https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples](https://github.com/stm32-rs/stm32f1xx-hal/tree/master/examples)
 
-3. **stm32f1xx_hal Documentation version 0.8** <br>
+4. **stm32f1xx_hal Documentation version 0.8** <br>
    [https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/](https://docs.rs/stm32f1xx-hal/0.8.0/stm32f1xx_hal/)
 
-4. **Crate cortex_m Documentation** <br>
+5. **Crate cortex_m Documentation** <br>
    Cortex core support and assembly instructions. <br>
    [https://docs.rs/cortex-m/latest/cortex_m/](https://docs.rs/cortex-m/latest/cortex_m/)
 
-5. **Crate cortex_m_rt Documentation** <br>
+6. **Crate cortex_m_rt Documentation** <br>
    Startup code and minimal runtime for Cortex-M micro-controllers <br>
    [https://docs.rs/cortex-m-rt/latest/cortex_m_rt/](https://docs.rs/cortex-m-rt/latest/cortex_m_rt/)
 
-6. **Play List - Embedded Rust BluePill** - Vers Binarii <br>
+7. **Play List - Embedded Rust BluePill** - Vers Binarii <br>
    [https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU)
 
-7. **Play List - Embedded Rust course** - JaJakub - 2022 <br>
+8. **Play List - Embedded Rust course** - JaJakub - 2022 <br>
    [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI)
 
-8. **TeXitoi - blue-pill-quickstart** <br>
+9. **TeXitoi - blue-pill-quickstart** <br>
    The Example source code is modified from here. <br>
    [https://github.com/TeXitoi/blue-pill-quickstart](https://github.com/TeXitoi/blue-pill-quickstart)
 
-9. **lupyuen - stm32-blue-pill-rust** <br>
-   This uses debugger multi architecture and VSCode. <br>
-   [https://github.com/lupyuen/stm32-blue-pill-rust](https://github.com/lupyuen/stm32-blue-pill-rust)
+10. **lupyuen - stm32-blue-pill-rust** <br>
+    This uses debugger multi architecture and VSCode. <br>
+    [https://github.com/lupyuen/stm32-blue-pill-rust](https://github.com/lupyuen/stm32-blue-pill-rust)
 
-10. **rust-embedded - cortex-m-quickstart** <br>
+11. **Rust Embedded BluePill Workshop Notes** <br>
+    [https://cgit.pinealservo.com/BluePill_Rust/resources/src/branch/master/notes.org](https://cgit.pinealservo.com/BluePill_Rust/resources/src/branch/master/notes.org)
+
+12. **rust-embedded - cortex-m-quickstart** <br>
     [https://github.com/rust-embedded/cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
 
-11. **STM32 - Discovery - Book** <br>
+13. **STM32 - Discovery - Book** <br>
     [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
 
-12. **The Embedded Rust Book** <br>
+14. **The Embedded Rust Book** <br>
     [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
 
-13. **229 drivers para Embedded-HAL** <br>
-    [https://crates.io/keywords/embedded-hal-driver](https://crates.io/keywords/embedded-hal-driver)
+15. **Video - How can we write the best device driver for a Hal in Rust?** <br>
+    [https://www.youtube.com/watch?v=z9z74VpqO9A](https://www.youtube.com/watch?v=z9z74VpqO9A)
 
-14. **More gdb commands cheat-sheet** <br> 
+16. **258 drivers para Embedded-HAL** <br>
+    [https://crates.io/search?q=embedded-hal%20driver](https://crates.io/search?q=embedded-hal%20driver)
+
+17. **More gdb commands cheat-sheet** <br> 
     [https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
-15. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
+18. **Video - Getting Started with Debugging using GDB** <br>
+    Find Bugs in Your Code with A Couple Easy Commands <br>
+    [https://www.youtube.com/watch?v=Dq8l1_-QgAc](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
+
+19. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
     RTIC is a RTOS - Real Time Operating System. <br>
     [https://www.youtube.com/watch?v=saNdh0m_qHc](https://www.youtube.com/watch?v=saNdh0m_qHc)
 
-16. **RTIC Book** <br>
+20. **RTIC Book** <br>
     Real-Time Interrupt-driven Concurrency. <br>
     A very efficient preemptive multitasking framework that supports task prioritization and dead lock free execution. <br>
-    [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
+    [https://rtic.rs/1/book/en/](https://rtic.rs/1/book/en/)
 
-17. **Github - rtic-rs - cortex-m-rtic** <br>
+21. **Github - rtic-rs - cortex-m-rtic** <br>
     [https://github.com/rtic-rs/cortex-m-rtic](https://github.com/rtic-rs/cortex-m-rtic)
 
-18. **Video - Grepit about the Rust RTIC framework** <br>
+22. **Video - Grepit about the Rust RTIC framework** <br>
     [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
 
-19. **The Embedonomicon Book** <br>
+23. **The Embedonomicon Book** <br>
     Deep dive into the inner workings. <br>
     [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
 
-20. **Awesome Embedded Rust** <br>
+24. **usb-device - Experimental device-side USB stack for embedded devices** <br>
+    [https://crates.io/crates/usb-device](https://crates.io/crates/usb-device)
+
+25. **probe-rs - A modern, embedded debugging toolkit, written in Rust** <br>
+    [https://probe.rs/](https://probe.rs/)
+
+26. **GitHub probe-rs** <br>
+    [https://github.com/probe-rs/probe-rs](https://github.com/probe-rs/probe-rs)
+
+27. **Video - probe-rs: Your Embedded Tome** <br>
+    [https://www.youtube.com/watch?v=esNPoXbhHkU](https://www.youtube.com/watch?v=esNPoXbhHkU)    
+
+28. **All relevant Info and a starting project Template.** <br>
+    Where I have put all the info that I consider to be relevant for **Pico development in Rust**. <br>
+    **Raspberry Pi Pico in Rust Proj Template with RTIC USB-Serial and UF2** <br>
+    [https://github.com/joaocarvalhoopen/Raspberry_Pi_Pico_in_Rust__Proj_Template_with_RTIC_USB-Serial_UF2](https://github.com/joaocarvalhoopen/Raspberry_Pi_Pico_in_Rust__Proj_Template_with_RTIC_USB-Serial_UF2)
+
+29. **Awesome Embedded Rust** <br>
     [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
 
-21. **How to learn modern Rust** <br>
+30. **How to learn modern Rust** <br>
     [https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust)
-    
+
 
 ## Datasheets
 
